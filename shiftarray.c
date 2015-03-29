@@ -15,7 +15,7 @@ int gcd(const int length,int offset){
 	}
 	return offset_temp;
 }
-//最小空间数组移位
+//最小临时空间  数组移位
 int shiftarray(int dat[],const int length,const int offset){
 	int i=0,j=0,k=0;
 	int last=0;
