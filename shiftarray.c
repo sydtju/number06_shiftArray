@@ -12,3 +12,4 @@ int absgcd(int m,int n){
 	}
 	return n;
 }
+//移位函数
