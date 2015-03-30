@@ -28,7 +28,7 @@ int shiftarray(int dat[],const int length,const int offset){
 		k=i;
 		do{
 			dat[k]=dat[(k+j)%length];
-			last=k;
+			last=k;//存储k值 用于最后的修正
 			k=(k+j)%length;
 		}while(i!=k);
 		dat[last]=temp;
